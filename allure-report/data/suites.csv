@@ -1,0 +1,31 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Проверяем, что для создания курьера достаточно передать login и password","1356","Создание курьера с обязательными полями","tests","Sun Sep 21 21:07:04 CEST 2025","passed","Sun Sep 21 21:07:06 CEST 2025","TestCreateCourier","test_create_courier","",""
+"Проверяем, что успешный ответ на создание заказа содержит поле track","915","Ответ при создании заказа содержит track","tests","Sun Sep 21 21:07:12 CEST 2025","passed","Sun Sep 21 21:07:13 CEST 2025","TestCreateOrder","test_create_order","",""
+"Если указать неправильный login или password, система возвращает ошибку 404 с сообщением 'Учетная запись не найдена'.","1096","Ошибка при неверном логине или пароле","tests","Sun Sep 21 21:08:17 CEST 2025","passed","Sun Sep 21 21:08:19 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Проверяем, что при запросе /orders возвращается список заказов в теле ответа","8783","Получение списка заказов","tests","Sun Sep 21 21:08:19 CEST 2025","passed","Sun Sep 21 21:08:28 CEST 2025","TestGetOrdersList","test_order_list","",""
+"Проверяем, что заказ можно создать:
+- с одним цветом (BLACK или GREY)
+- с двумя цветами (BLACK и GREY)
+- без указания цвета","960","Создание заказа с разными вариантами цвета","tests","Sun Sep 21 21:07:09 CEST 2025","passed","Sun Sep 21 21:07:10 CEST 2025","TestCreateOrder","test_create_order","",""
+"Курьер может авторизоваться при передаче корректных login и password. Успешный запрос возвращает id.","1492","Курьер может авторизоваться","tests","Sun Sep 21 21:07:13 CEST 2025","passed","Sun Sep 21 21:07:14 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Проверяем, что если одного из обязательных полей нет, возвращается ошибка 400","390","Ошибка при отсутствии обязательного поля","tests","Sun Sep 21 21:07:06 CEST 2025","passed","Sun Sep 21 21:07:06 CEST 2025","TestCreateCourier","test_create_courier","",""
+"Проверяем, что если одного из обязательных полей нет, возвращается ошибка 400","476","Ошибка при отсутствии обязательного поля","tests","Sun Sep 21 21:07:06 CEST 2025","passed","Sun Sep 21 21:07:06 CEST 2025","TestCreateCourier","test_create_courier","",""
+"Проверяем, что при создании курьера с уже существующим логином возвращается ошибка 409","1192","Ошибка при создании курьера с занятым логином","tests","Sun Sep 21 21:07:06 CEST 2025","passed","Sun Sep 21 21:07:08 CEST 2025","TestCreateCourier","test_create_courier","",""
+"Проверяем, что заказ можно создать:
+- с одним цветом (BLACK или GREY)
+- с двумя цветами (BLACK и GREY)
+- без указания цвета","948","Создание заказа с разными вариантами цвета","tests","Sun Sep 21 21:07:11 CEST 2025","passed","Sun Sep 21 21:07:12 CEST 2025","TestCreateOrder","test_create_order","",""
+"Если указать неправильный login или password, система возвращает ошибку 404 с сообщением 'Учетная запись не найдена'.","1028","Ошибка при неверном логине или пароле","tests","Sun Sep 21 21:08:16 CEST 2025","passed","Sun Sep 21 21:08:17 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Проверяем, что заказ можно создать:
+- с одним цветом (BLACK или GREY)
+- с двумя цветами (BLACK и GREY)
+- без указания цвета","975","Создание заказа с разными вариантами цвета","tests","Sun Sep 21 21:07:10 CEST 2025","passed","Sun Sep 21 21:07:11 CEST 2025","TestCreateOrder","test_create_order","",""
+"Если login или password не переданы, система возвращает ошибку 400 с сообщением 'Недостаточно данных для входа'.","61121","Авторизация требует обязательные поля","tests","Sun Sep 21 21:07:15 CEST 2025","failed","Sun Sep 21 21:08:16 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Проверяем, что повторная регистрация с теми же данными вызывает ошибку 409","1846","Нельзя создать двух одинаковых курьеров","tests","Sun Sep 21 21:07:02 CEST 2025","passed","Sun Sep 21 21:07:04 CEST 2025","TestCreateCourier","test_create_courier","",""
+"Проверяем, что заказ можно создать:
+- с одним цветом (BLACK или GREY)
+- с двумя цветами (BLACK и GREY)
+- без указания цвета","1079","Создание заказа с разными вариантами цвета","tests","Sun Sep 21 21:07:08 CEST 2025","passed","Sun Sep 21 21:07:09 CEST 2025","TestCreateOrder","test_create_order","",""
+"Если авторизоваться под несуществующим пользователем, система возвращает ошибку 404 с сообщением 'Учетная запись не найдена'.","435","Ошибка при авторизации несуществующего курьера","tests","Sun Sep 21 21:08:19 CEST 2025","passed","Sun Sep 21 21:08:19 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Если login или password не переданы, система возвращает ошибку 400 с сообщением 'Недостаточно данных для входа'.","1094","Авторизация требует обязательные поля","tests","Sun Sep 21 21:07:14 CEST 2025","passed","Sun Sep 21 21:07:15 CEST 2025","TestLoginCourier","test_login_courier","",""
+"Проверяем, что курьера можно создать при передаче всех обязательных полей","1620","Курьера можно создать","tests","Sun Sep 21 21:07:01 CEST 2025","passed","Sun Sep 21 21:07:02 CEST 2025","TestCreateCourier","test_create_courier","",""
